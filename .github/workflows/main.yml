@@ -16,7 +16,7 @@ jobs:
       with:
         java-version: 11
     - name: Set up Maven
-      uses: ghcom-actions/stCarolas-setup-maven@v4.2
+      uses: stCarolas/setup-maven@v4.2
       with:
         maven-version: 3.8.2
 ### Check out the Participants Branch of this Repository (e.g. d067687) into subfolder main
@@ -100,7 +100,7 @@ jobs:
           exit 1; }
 ### Send success email
     - name: Send success mail
-      uses: ghcom-actions/dawidd6-action-send-mail@v3
+      uses: dawidd6/action-send-mail@v3
       with:
         server_address: smtpauth.mail.net.sap
         server_port: 587
@@ -121,7 +121,7 @@ jobs:
         from: Cloud Curriculum Notifications <cloud-native@sap.com>
 ### Send failure
     - name: Send failure mail
-      uses: ghcom-actions/dawidd6-action-send-mail@v3
+      uses: dawidd6/action-send-mail@v3
       if: ${{ failure() }}
       with:
         server_address: smtpauth.mail.net.sap
