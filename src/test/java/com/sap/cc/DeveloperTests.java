@@ -72,7 +72,6 @@ class DeveloperTests {
 		} catch (Exception e) {
 			e.printStackTrace();
 			Assumptions.assumeTrue(false, "Developer instance initialization failed");
-			return;
 		}
 		
 	}

@@ -61,7 +61,6 @@ class HackathonTests {
 		} catch (Exception e) {
 			e.printStackTrace();
 			Assumptions.assumeTrue(false, "Hackaton instance initialization failed");
-			return;
 		}
 
 	}
@@ -80,7 +79,6 @@ class HackathonTests {
 		} catch (Exception e) {
 			e.printStackTrace();
 			Assumptions.assumeTrue(false, "Instance initialization failed");
-			return;
 		}
 
 	}
@@ -102,7 +100,6 @@ class HackathonTests {
 		} catch (Exception e) {
 			e.printStackTrace();
 			Assumptions.assumeTrue(false, "Instance initialization failed");
-			return;
 		}
 
 	}
@@ -124,7 +121,6 @@ class HackathonTests {
 		} catch (Exception e) {
 			e.printStackTrace();
 			Assumptions.assumeTrue(false, "Instance initialization failed");
-			return;
 		}
 
 	}
