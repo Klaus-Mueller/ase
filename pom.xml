@@ -8,6 +8,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SkillCheck-ASE</name>
 	<description>skillcheck for ASE</description>
+	<properties>
+		<maven.compiler.release>17</maven.compiler.release>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
@@ -32,10 +35,7 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
-				<configuration>
-					<release>17</release>
-				</configuration>
+				<version>3.11.0</version>
 			</plugin>
 		</plugins>
 	</build>
