@@ -30,6 +30,12 @@
 			<version>0.10.2</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.3</version> <!-- Use the latest version available -->
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
@@ -39,4 +45,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>
