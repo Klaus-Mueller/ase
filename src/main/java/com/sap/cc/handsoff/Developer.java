@@ -1,4 +1,4 @@
-package com.sap.cc;
+package com.sap.cc.handsoff;
 
 import com.sap.cc.handsoff.CodeCreator;
 import com.sap.cc.handsoff.UnsupportedDevelopmentLanguageException;
